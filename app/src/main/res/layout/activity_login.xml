@@ -6,17 +6,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <TextView
+        android:id="@+id/login_text"
+        android:text="Welcome"
+        android:textSize="@dimen/dp_40"
+        android:layout_marginBottom="@dimen/dp_40"
+        android:textColor="@color/green_normal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/login_tabs"
         app:tabSelectedTextColor="@color/green_normal"
         app:tabTextColor="@color/gray"
         android:background="#FFF"
-        android:layout_width="match_parent"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"/>
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/login_vp"
         android:background="#FFF"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/dp_350"/>
+        android:layout_height="@dimen/dp_230"/>
 
 </LinearLayout>
