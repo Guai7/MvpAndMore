@@ -1,2 +1,3 @@
 rootProject.name = "MvpAndMore"
 include ':app'
+include ':MyBase'
