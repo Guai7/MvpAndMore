@@ -14,6 +14,7 @@ class IndexActivity extends BaseActivity {
     @Override
     public void initView() {
 
+
         indexTabs = findViewById(R.id.index_tabs);
         indexVp = findViewById(R.id.index_vp);
     }
